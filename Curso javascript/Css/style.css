@@ -1,0 +1,73 @@
+/*  Estilo mais basico  */
+
+p{
+    color:chocolate;
+    
+    
+}
+
+/*  Classes e ids   */
+
+.Esses-sao-iguais{
+    background-color: black;
+    color: white;
+}
+
+#Primeiro-paragrafo{
+    background-color: cornflowerblue;
+    color: blue;
+}
+
+h1, h3, h2 {
+    color: darkgreen;
+}
+
+/*
+* {
+    font-style:italic;
+}
+*/
+
+.cor {
+    background-color: darkred;
+    color: darkorchid;
+}
+
+.rgb {
+    color: rgb(116, 52, 235);
+}
+
+.hexa {
+    color: #77eb34;
+}
+
+.hsl {
+    color: hsl(239, 89%, 47%);
+}
+
+#textoAlinhado {
+    color: black;
+    text-align:justify;
+}
+
+/*  Estilo de fonte */
+
+#estilo-fonte {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-google {
+    color: green;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid green ;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+}
+
+.link-google:hover {
+    background-color: lawngreen;
+    color: white;
+}
